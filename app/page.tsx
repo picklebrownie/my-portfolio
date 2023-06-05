@@ -65,7 +65,7 @@ export default function Home() {
       <div className='flex flex-col items-center justify-between bg-hanging-plant-mobile bg-contain bg-no-repeat bg-top-right bg-origin-padding bg-opacity-50 lg:bg-hanging-plant md:bg-right w-full md:min-h-screen md:max-width-2xl lg:px-12 xl:px-32'>
         <section className='flex flex-col items-center justify-between bg-gradient-to-b from-slate-50 bg-opacity-90 to-transparent pt-20 pb-32 px-12 place-items-center md:px-0 lg:bg-transparent lg:from-transparent md:px-24 md:pt-48 md:min-w-full'>
           <h1 className="relative flex font-caveat text-6xl pb-24 md:text-start md:w-full md:pb-44 lg:pb-12 lg:pt-28 lg:-ml-12 lg:text-7xl xl:text-8xl">
-            let's create something
+            let&apos;s create something
           </h1>
 
           <div className='flex flex-col items-center justify-between md:flex-row md:gap-24 w-full md:pr-44 lg:justify-start lg:pr-0 lg:items-end xl:gap-40'>
@@ -152,7 +152,7 @@ export default function Home() {
           </h2>
         </div>
 
-        <p className='font-antic text-base pb-12 md:leading-loose md:max-w-3xl'>Our predecessors used light bulbs and punch cards to pave the way towards a beautiful and rich future of secure and cost-effective custom web applications. Schedule a consult and we'll discuss how near that future may be for your latest idea or your oldest legacy application.</p>
+        <p className='font-antic text-base pb-12 md:leading-loose md:max-w-3xl'>Our predecessors used light bulbs and punch cards to pave the way towards a beautiful and rich future of secure and cost-effective custom web applications. Schedule a consult and we&apos;ll discuss how near that future may be for your latest idea or your oldest legacy application.</p>
 
         <div className='flex flex-col gap-12 md:max-w-3xl lg:max-w-4xl lg:flex-row'>
           <div className='bg-slate-50 px-8 flex flex-col items-center justify-between gap-8 p-8 rounded-2xl md:flex-row md:items-start md:pr-16 md:pl-12 lg:flex-col lg:items-center lg:px-8'>
@@ -165,7 +165,7 @@ export default function Home() {
               If your existing web application is outdated or running slow, refactoring your code may be the right choice for you. With over seven years experience managing and refactoring legacy codebases, I can expertly navigate even the messiest of codebases.
               </p>
               <div className='md:w-full md:grid md:justify-items-end lg:justify-items-center'>
-                <button className='button-pink text font-caveat w-fit text-white text-2xl focus:scale-110 hover:scale-110'>let's refactor</button>
+                <button className='button-pink text font-caveat w-fit text-white text-2xl focus:scale-110 hover:scale-110'>let&apos;s refactor</button>
               </div>
             </div>
           </div>
@@ -177,10 +177,10 @@ export default function Home() {
             <div className='flex flex-col items-center justify-between gap-8'>
               <h3 className='font-semibold font-caveat text-2xl md:text-start md:w-full lg:text-center lg:w-fit'>Build a Web Application</h3>
               <p className='font-antic text-base md:text-start md:w-full lg:text-center'>
-              So, you've got an idea for an app? Partner with me and we will turn your idea into reality. You will have total creative control as your app is prototyped, developed, and deployed. I stay informed with the latest development tools to ensure that your app has the cutting edge designs, speeds, and security you desire.
+              So, you&apos;ve got an idea for an app? Partner with me and we will turn your idea into reality. You will have total creative control as your app is prototyped, developed, and deployed. I stay informed with the latest development tools to ensure that your app has the cutting edge designs, speeds, and security you desire.
               </p>
               <div className='md:w-full md:grid md:justify-items-end lg:justify-items-center'>
-                <button className='button-purple text font-caveat w-fit text-white text-2xl focus:scale-110 hover:scale-110'>let's create</button>
+                <button className='button-purple text font-caveat w-fit text-white text-2xl focus:scale-110 hover:scale-110'>let&apos;s create</button>
               </div>
             </div>
           </div>
@@ -195,7 +195,7 @@ export default function Home() {
               APIs enable applications to wok together to perform specific tasks by sharing data and executing pre-defined processes. If you have data that you need to share with your customers or other applications, creating an API may be the right choice for you. 
               </p>
               <div className='md:w-full md:grid md:justify-items-end lg:justify-items-center'>
-                <button className='button-blue text font-caveat w-fit text-white text-2xl focus:scale-110 hover:scale-110'>let's innovate</button>
+                <button className='button-blue text font-caveat w-fit text-white text-2xl focus:scale-110 hover:scale-110'>let&apos;s innovate</button>
               </div>
             </div>
           </div>
@@ -225,7 +225,7 @@ export default function Home() {
             <QuoteIcon width={84} height={84} className='absolute top-0 left-2'/>
             <QuoteIcon width={84} height={84} className='absolute rotate-180 bottom-0 right-2'/>
             <p className='font-antic text-base'>
-            Invention is the most important product of man's creative brain. The ultimate purpose is the complete mastery of mind over the material world, the harnessing of human nature to human needs
+            Invention is the most important product of man&apos;s creative brain. The ultimate purpose is the complete mastery of mind over the material world, the harnessing of human nature to human needs
             </p>
             <span className='font-caveat text-xl'>Edsger W. Dijkstra</span>
           </div>
