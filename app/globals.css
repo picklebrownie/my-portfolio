@@ -1,27 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Caveat:wght@400;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 0, 0, 0; /* black */
+  --background-start-rgb: 119 50 255 / 28%; /* purple */
+  --background-end-rgb: 255, 255, 255; /* white */
+  --font-sans: ${caveat.style.fontFamily};
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 255, 255, 255; /* white */
+    --background-start-rgb: 119 50 255; /* purple */
+    --background-end-rgb: 119 50 255; /* black */
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
-      to bottom,
-      transparent,
+      to top,
+      transparent 80%,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+button {
+  box-sizing: border-box;
+  width: min-content; /* 109px */
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 15px 15px 15px;
+  box-shadow: -1px 2px 2px -2px rgba(0, 0, 0, 0.75);
+  overflow: visible;
+  align-content: center;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  gap: 10;
+  border-radius: 40px;
+}
+
+.button-pink {
+  background: linear-gradient(180deg, #ffe5f0 0%, #FABDD5 100%);
+}
+
+.button-purple {
+  background: linear-gradient(180deg, #eee5ff 0%, hsl(260, 86%, 79%) 100%);
+}
+
+.button-blue {
+  background: linear-gradient(180deg, #e5f3ff 0%, hsl(209, 100%, 79%) 100%);
 }
