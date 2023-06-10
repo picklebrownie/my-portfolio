@@ -208,7 +208,7 @@ export default function Home() {
           <div className='relative px-12 md:px-16 w-full h-full flex flex-col items-center'>
             <Image alt="Artsy photo of books and a vase on a wooded shelf." width={250} height={150} style={{objectFit: "contain"}} src='/quote-decor.png' className='-mb-1 z-10' />
           </div>
-          <div className='relative flex flex-col pb-12 md:pb-0'>
+          <div className='relative flex flex-col mb-12 md:mb-0'>
             <div className='flex flex-col bg-slate-50 rounded-[60px] p-12 gap-4'>
               <QuoteIcon width={84} height={84} className='absolute top-0 left-2'/>
               <QuoteIcon width={84} height={84} className='absolute rotate-180 bottom-0 right-2'/>
