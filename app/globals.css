@@ -8,6 +8,8 @@
   --foreground-rgb: 0, 0, 0; /* black */
   --background-start-rgb: 119 50 255 / 28%; /* purple */
   --background-end-rgb: 255, 255, 255; /* white */
+  --background-start:  #7732FF12; 
+  --background-end:  #7732FF88; 
   --font-sans: ${caveat.style.fontFamily};
 }
 
@@ -19,17 +21,19 @@
     /* --foreground-rgb: 255, 255, 255; /* white */
     /* --background-start-rgb: 119 50 255; /* purple */
     /* --background-end-rgb: 119 50 255; /* black */
+  
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(var(--background-start), var(--background-end));
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to top,
       transparent 80%,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 button {
