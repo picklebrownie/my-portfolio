@@ -225,7 +225,7 @@ export default function Home() {
             <QuoteIcon width={84} height={84} className='absolute top-0 left-2'/>
             <QuoteIcon width={84} height={84} className='absolute rotate-180 bottom-0 right-2'/>
             <p className='font-antic text-base'>
-            Invention is the most important product of man&apos;s creative brain. The ultimate purpose is the complete mastery of mind over the material world, the harnessing of human nature to human needs
+            Invention is the most important product of man&apos;s creative brain. The ultimate purpose is the complete mastery of mind over the material world, the harnessing of human nature to human needs.
             </p>
             <span className='font-caveat text-xl'>Nikola Tesla</span>
           </div>
