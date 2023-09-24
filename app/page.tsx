@@ -227,7 +227,7 @@ export default function Home() {
             <p className='font-antic text-base'>
             Invention is the most important product of man&apos;s creative brain. The ultimate purpose is the complete mastery of mind over the material world, the harnessing of human nature to human needs
             </p>
-            <span className='font-caveat text-xl'>Edsger W. Dijkstra</span>
+            <span className='font-caveat text-xl'>Nikola Tesla</span>
           </div>
         </div>
       </section>
