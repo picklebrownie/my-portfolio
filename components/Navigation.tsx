@@ -24,13 +24,13 @@ export default function Navigation() {
         <div
           className={classNames(
             open ? 'left-36' : 'left-4',
-            'fixed top-4 transition-all duration-700 ease-in-out z-30'
+            'fixed top-4 z-30 transition-all duration-700 ease-in-out'
           )}
         >
           {/* Mobile menu button*/}
           <button
             onClick={() => setOpen(!open)}
-            className="relative inline-flex items-center justify-center rounded-none border-0 p-2 text-gray-500 hover:text-gray-900 transition ease-in-out duration-300 outline-none ring-0"
+            className="relative inline-flex items-center justify-center rounded-none border-0 p-2 text-gray-500 outline-none ring-0 transition duration-300 ease-in-out hover:text-gray-900"
           >
             {/* <span className="absolute" /> */}
             <span className="sr-only">Open main menu</span>
@@ -44,7 +44,7 @@ export default function Navigation() {
         <div
           className={classNames(
             open ? 'left-0' : '-left-48',
-            'fixed h-full transition-all ease-in-out w-48 top-0 duration-700 z-20 bg-gradient-to-t from-purple-300 to-purple-50'
+            'fixed top-0 z-20 h-full w-48 bg-gradient-to-t from-purple-300 to-purple-50 transition-all duration-700 ease-in-out'
           )}
         >
           <div className="space-y-1 px-2 pb-3 pt-2">
@@ -58,7 +58,7 @@ export default function Navigation() {
                   item.current
                     ? 'text-purple-600'
                     : 'text-black hover:bg-gray-700 hover:text-white',
-                  'block rounded-md px-3 py-2 text-base font-medium font-antic'
+                  'block rounded-md px-3 py-2 font-antic text-base font-medium'
                 )}
                 aria-current={item.current ? 'page' : undefined}
               >

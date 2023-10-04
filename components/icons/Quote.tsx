@@ -1,5 +1,7 @@
-import * as React from "react";
-const SVGComponent = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
+import * as React from 'react'
+const SVGComponent = (
+  props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
+) => (
   <svg
     width="800px"
     height="800px"
@@ -23,5 +25,5 @@ const SVGComponent = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGS
       opacity={0.1}
     />
   </svg>
-);
-export default SVGComponent;
+)
+export default SVGComponent

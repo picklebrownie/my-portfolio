@@ -1,3 +1,7 @@
 {
-  "extends": "next/core-web-vitals"
+  "tailwindcss": {
+    "config": "./tailwind.config.js"
+  },
+  "extends": ["next/core-web-vitals", "tailwindcss", "prettier"],
+  "plugins": ["tailwindcss"]
 }
