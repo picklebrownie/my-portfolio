@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { socials } from '../utils/socials'
 
 const navigation = [
-  { name: 'About Me', href: '#', current: true },
+  { name: 'About Me', href: '#', current: false },
   { name: 'Experience', href: '#', current: false },
   { name: 'Eduaction', href: '#', current: false },
   { name: 'Publications', href: '#', current: false },
@@ -74,7 +74,7 @@ export default function Navigation() {
         <div
           className={classNames(
             open
-              ? 'left-36 top-4'
+              ? 'left-44 top-4'
               : scrollDir === 'up'
               ? 'left-4 top-4'
               : '-top-16 left-4',
@@ -98,46 +98,50 @@ export default function Navigation() {
         <div
           className={classNames(
             open ? 'left-0' : '-left-48',
-            'fixed top-0 z-20 h-full w-48 bg-gradient-to-t from-purple-300 to-purple-50 transition-all duration-700 ease-in-out'
+            'fixed top-0 z-20 h-full bg-gradient-to-t from-purple-300 to-purple-50 transition-all duration-700 ease-in-out'
           )}
         >
-          <div className="space-y-1 px-2 pb-3 pt-2">
-            <div className="flex font-caveat text-4xl">Something</div>
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                as="a"
-                href={item.href}
-                className={classNames(
-                  item.current
-                    ? 'text-purple-600'
-                    : 'text-black hover:bg-gray-700 hover:text-white',
-                  'block rounded-md px-3 py-2 font-antic text-base font-medium'
-                )}
-                aria-current={item.current ? 'page' : undefined}
-              >
-                {item.name}
-              </Link>
-            ))}
-            <div className="flex flex-col pb-4">
-              <div className="font-antic">Your developer,</div>
-              <div className="-rotate-6 font-caveat text-2xl">Kayla</div>
+          <div className="flex h-full flex-col justify-between space-y-1 pb-3 pl-4 pr-8 pt-4">
+            <div>
+              <div className="pb-2 font-caveat text-4xl">Something</div>
+              {navigation.map((item) => (
+                <Link
+                  key={item.name}
+                  as="a"
+                  href={item.href}
+                  className={classNames(
+                    item.current
+                      ? 'text-purple-600'
+                      : 'text-black hover:text-purple-600',
+                    'block rounded-md px-4 py-2 font-antic text-base font-medium'
+                  )}
+                  aria-current={item.current ? 'page' : undefined}
+                >
+                  {item.name}
+                </Link>
+              ))}
             </div>
-          </div>
-          <div className="flex justify-center space-x-6 md:order-2">
-            {socials.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="text-purple-300 hover:text-purple-400"
-              >
-                <span className="sr-only">{item.name}</span>
-                <item.icon
-                  className="h-6 w-6 transition duration-300 ease-in-out hover:scale-125"
-                  aria-hidden="true"
-                />
-              </a>
-            ))}
+            <div className="flex flex-col pl-2">
+              <div className="font-antic">Your developer,</div>
+              <div className="drop-shadow-purple-600 flex -rotate-6 justify-end pb-8 pr-2 font-caveat text-2xl">
+                Kayla
+              </div>
+              <div className="flex justify-center space-x-4 md:order-2">
+                {socials.map((item) => (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className="text-purple-400 hover:text-purple-800"
+                  >
+                    <span className="sr-only">{item.name}</span>
+                    <item.icon
+                      className="h-6 w-6 transition duration-300 ease-in-out hover:scale-125"
+                      aria-hidden="true"
+                    />
+                  </a>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </nav>
