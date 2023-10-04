@@ -16,6 +16,7 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'hanging-plant-mobile': "url('/hanging-plant-mobile.png')",
         'hanging-plant': "url('/hanging-plant.png')",
+        'anderson-tower': "url('/anderson-tower.jpg')",
       },
       fontFamily: {
         caveat: ['Caveat', 'cursive'],

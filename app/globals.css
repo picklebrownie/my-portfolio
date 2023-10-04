@@ -24,7 +24,7 @@
   }
 }
 
-body {
+.home-body {
   background: linear-gradient(var(--background-start), var(--background-end));
   /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -63,4 +63,23 @@ button {
 
 .button-blue {
   background: linear-gradient(180deg, #e5f3ff 0%, hsl(209, 100%, 79%) 100%);
+}
+
+.flip-card {
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
 }
