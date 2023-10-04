@@ -11,22 +11,22 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'hanging-plant-mobile' : "url('/hanging-plant-mobile.png')",
-        'hanging-plant' : "url('/hanging-plant.png')",
+        'hanging-plant-mobile': "url('/hanging-plant-mobile.png')",
+        'hanging-plant': "url('/hanging-plant.png')",
       },
       fontFamily: {
-        caveat: ["Caveat", "cursive"],
-        antic: ["Antic", "sans-serif"],
+        caveat: ['Caveat', 'cursive'],
+        antic: ['Antic', 'sans-serif'],
       },
       animation: {
         marquee: 'marquee 42s linear infinite',
         marquee2: 'marquee2 42s linear infinite',
         marquee3: 'marquee3 42s linear infinite',
         marquee4: 'marquee4 42s linear infinite',
-        fadeIn: "fadeIn 3s ease-in forwards",
+        fadeIn: 'fadeIn 3s ease-in forwards',
         variants: {
-          animation: ["motion-safe"]
-        }
+          animation: ['motion-safe'],
+        },
       },
       keyframes: {
         marquee: {
@@ -46,9 +46,9 @@ module.exports = {
           '100%': { transform: 'translateX(0%)' },
         },
         fadeIn: {
-          "0%": { opacity: 0 },
-          "100%": { opacity: 1 }
-        }
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
+        },
       },
     },
   },
