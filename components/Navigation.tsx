@@ -101,7 +101,7 @@ export default function Navigation() {
         <div
           className={classNames(
             open ? 'left-0' : '-left-48',
-            'fixed top-0 z-20 h-full bg-gradient-to-t from-purple-300 to-purple-50 transition-all duration-700 ease-in-out'
+            'fixed top-0 z-20 h-full bg-gradient-to-t from-purple-300 to-purple-50 shadow-xl transition-all duration-700 ease-in-out'
           )}
         >
           <div className="flex h-full flex-col justify-between space-y-1 overflow-y-scroll pb-3 pl-4 pr-8 pt-4">
@@ -134,7 +134,7 @@ export default function Navigation() {
 
             <div className="flex flex-col pl-2 pt-8">
               <div className="font-antic">Your developer,</div>
-              <div className="drop-shadow-purple-600 flex -rotate-6 justify-end pb-8 pr-2 font-caveat text-2xl">
+              <div className="flex -rotate-6 justify-end pb-8 pr-2 font-caveat text-2xl drop-shadow-purple-600">
                 Kayla
               </div>
               <div className="flex justify-center space-x-4 pb-6 md:order-2">
