@@ -11,8 +11,10 @@ module.exports = {
     'text-red-800',
     'text-red-900',
     'text-neutral-300',
+    'text-neutral-800',
     'hover:text-orange-600',
     'hover:text-neutral-50',
+    'hover:text-neutral-900',
   ],
   theme: {
     extend: {
@@ -31,6 +33,9 @@ module.exports = {
       fontFamily: {
         caveat: ['Caveat', 'cursive'],
         antic: ['Antic', 'sans-serif'],
+        arvo: ['Arvo', 'serif'],
+        cabin: ['Cabin', 'sans-serif'],
+        dancing: ['Dancing Script', 'cursive'],
       },
       animation: {
         marquee: 'marquee 42s linear infinite',
