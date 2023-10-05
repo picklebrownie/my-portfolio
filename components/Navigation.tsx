@@ -7,8 +7,8 @@ import { socials } from '../utils/socials'
 import { usePathname } from 'next/navigation'
 
 const navigation = [
-  { name: 'About Me', href: '#' },
-  { name: 'Experience', href: '#' },
+  // { name: 'About Me', href: '#' },
+  // { name: 'Experience', href: '#' },
   { name: 'Education', href: '/education' },
   { name: 'Publications', href: '/publications' },
   { name: 'Projects', href: '/projects' },
