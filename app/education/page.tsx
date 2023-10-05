@@ -122,7 +122,7 @@ export default function Education() {
           />
         </div>
 
-        <div className="flex flex-col justify-center px-16 sm:flex-row">
+        <div className="flex flex-col items-center justify-center px-16 sm:flex-row">
           <CardFlip
             CardFront={<C />}
             CardBack={
