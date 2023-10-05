@@ -17,6 +17,7 @@ module.exports = {
         'hanging-plant-mobile': "url('/hanging-plant-mobile.png')",
         'hanging-plant': "url('/hanging-plant.png')",
         'anderson-tower': "url('/anderson-tower.jpg')",
+        'anderson-tower-mobile': "url('/anderson-tower-mobile.jpg')",
       },
       fontFamily: {
         caveat: ['Caveat', 'cursive'],

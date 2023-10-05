@@ -37,7 +37,7 @@ const CardFlip = ({
 
         <div className="flip-card-back h-full w-full rounded-2xl border-[1px] bg-white bg-cover p-1">
           <div className="h-full w-full rounded-xl bg-black bg-gradient-to-tr from-red-950 to-orange-600 p-1">
-            <div className="flex h-full w-full flex-col items-center justify-center rounded-md bg-white text-lg">
+            <div className="flex h-full w-full flex-col items-center justify-center rounded-md bg-white text-center text-lg">
               {CardBack}
             </div>
           </div>
