@@ -11,14 +11,20 @@ export default function Publications() {
     <>
       <div className="z-10 min-h-screen bg-gradient-to-b from-teal-600/50 to-teal-600">
         <div className="h-[70vh]" />
-        <div className="relative h-screen">
-          <Image
-            src="/book.svg"
-            alt="decorative book"
-            fill
-            className="pb-4 opacity-75"
-          />
-        </div>
+        <motion.div
+          animate={{ opacity: 1 }}
+          initial={{ opacity: 0.1 }}
+          transition={{ duration: 2 }}
+        >
+          <div className="relative h-screen">
+            <Image
+              src="/book.svg"
+              alt="decorative book"
+              fill
+              className="pb-4 opacity-75"
+            />
+          </div>
+        </motion.div>
         <Footer />
       </div>
       <motion.div
