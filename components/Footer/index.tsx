@@ -1,6 +1,16 @@
 import { socials } from '../../utils/socials'
 
-export default function Footer() {
+import { cn } from '../../utils/utils'
+
+export default function Footer({
+  textColor = 'purple-100',
+  iconColor = 'purple-100',
+  iconHoverColor = 'slate-50',
+}: {
+  textColor?: string
+  iconColor?: string
+  iconHoverColor?: string
+}) {
   return (
     <footer className="mx-auto max-w-5xl">
       <div className="mx-auto px-6 py-12 md:flex md:items-center md:justify-between md:px-12">
@@ -9,7 +19,11 @@ export default function Footer() {
             <a
               key={item.name}
               href={item.href}
-              className="text-purple-100 hover:text-slate-50"
+              className={cn(
+                '',
+                'text-' + iconColor,
+                'hover:text-' + iconHoverColor
+              )}
             >
               <span className="sr-only">{item.name}</span>
               <item.icon
@@ -20,7 +34,9 @@ export default function Footer() {
           ))}
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
-          <p className="text-center text-xs leading-5 text-purple-100">
+          <p
+            className={cn('text-center text-xs leading-5', 'text-' + textColor)}
+          >
             © 2023 Created by Kayla.
           </p>
         </div>

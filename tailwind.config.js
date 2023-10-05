@@ -5,6 +5,13 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  safelist: [
+    'text-purple-100',
+    'text-slate-50',
+    'text-red-800',
+    'text-red-900',
+    'hover:text-orange-600',
+  ],
   theme: {
     extend: {
       dropShadow: {

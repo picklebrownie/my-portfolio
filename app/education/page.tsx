@@ -14,11 +14,12 @@ import O from './icons/O'
 import G from './icons/G'
 import CardFlip from './components/CardFlip'
 import Image from 'next/image'
+import Footer from '@/components/Footer'
 
 export default function Education() {
   return (
     <>
-      <div className="md:bg-anderson-tower bg-anderson-tower-mobile fixed top-0 z-0 h-screen w-screen flex-col justify-center bg-cover bg-center bg-no-repeat"></div>
+      <div className="fixed top-0 z-0 h-screen w-screen flex-col justify-center bg-anderson-tower-mobile bg-cover bg-center bg-no-repeat md:bg-anderson-tower"></div>
       <div className="fixed top-0 z-0 h-screen w-screen flex-col justify-center bg-white/75 bg-cover bg-center bg-no-repeat"></div>
       <div className="flex h-full w-full flex-col justify-center pt-16 lg:mt-0 lg:h-screen">
         <div className="flex flex-col items-center justify-center px-16 sm:flex-row">
@@ -122,7 +123,7 @@ export default function Education() {
           />
         </div>
 
-        <div className="flex flex-col items-center justify-center px-16 sm:flex-row">
+        <div className="flex flex-col items-center justify-center px-16 pb-8 sm:flex-row md:pb-48">
           <CardFlip
             CardFront={<C />}
             CardBack={
@@ -216,6 +217,13 @@ export default function Education() {
             }
           />
         </div>
+      </div>
+      <div className="absolute w-full md:fixed md:bottom-0">
+        <Footer
+          textColor="red-900"
+          iconColor="red-900"
+          iconHoverColor="orange-600"
+        />
       </div>
     </>
   )
