@@ -147,9 +147,9 @@ export default function Home() {
 
           <section className="relative flex flex-col items-center justify-between px-8 pb-24 pt-20 lg:gap-6">
             <div className="relative w-fit">
-              <LightbulbAnimation className="absolute  -right-6 -z-10 md:right-36 md:top-0" />
+              <LightbulbAnimation className="absolute -right-6 md:right-36 md:top-0" />
               <h2
-                className="py-12 font-caveat text-6xl md:leading-10"
+                className="relative py-12 font-caveat text-6xl md:leading-10"
                 ref={lightbulbRef}
               >
                 <span className="md:pr-44">

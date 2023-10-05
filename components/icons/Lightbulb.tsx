@@ -3,7 +3,7 @@ const SVGComponent = (
   props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
 ) => (
   <svg
-    fill="#F2FF66"
+    fill="#fde047"
     width="800px"
     height="800px"
     viewBox="0 0 36 36"
