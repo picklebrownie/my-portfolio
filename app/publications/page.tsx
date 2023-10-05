@@ -9,35 +9,43 @@ import Footer from '@/components/Footer'
 export default function Publications() {
   return (
     <>
-      <div className="z-10 min-h-screen bg-gradient-to-b from-teal-600/50 to-teal-600">
-        <div className="h-[70vh]" />
-        <motion.div
-          animate={{ opacity: 1 }}
-          initial={{ opacity: 0.1 }}
-          transition={{ duration: 2 }}
-        >
-          <div className="relative h-screen">
-            <Image
-              src="/book.svg"
-              alt="decorative book"
-              fill
-              className="pb-4 opacity-75"
+      <div className="z-10 min-h-screen w-screen bg-gradient-to-b from-teal-600/50 to-teal-600">
+        <div className="hidden h-[70vh] lg:flex" />
+        <div className="flex h-screen w-screen items-center">
+          <div className="relative w-screen self-end">
+            <motion.div
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0.1 }}
+              transition={{ duration: 2 }}
+            >
+              <div className="relative h-[50vh] lg:h-screen">
+                <Image
+                  src="/book.svg"
+                  alt="decorative book"
+                  fill
+                  className="pb-4 opacity-75"
+                />
+              </div>
+            </motion.div>
+            <Footer
+              textColor="neutral-300"
+              iconColor="neutral-300"
+              iconHoverColor="neutral-50"
             />
           </div>
-        </motion.div>
-        <Footer />
+        </div>
       </div>
       <motion.div
         animate={{ opacity: 1 }}
         initial={{ opacity: 0.1 }}
         transition={{ duration: 2 }}
       >
-        <div className="fixed top-0 flex h-screen w-screen items-center justify-center overflow-x-scroll">
+        <div className="fixed top-0 flex h-screen w-screen overflow-y-scroll p-12 md:justify-center lg:items-center">
           <div>
-            <div className="text-shadow-lg relative font-caveat text-5xl text-white md:-ml-8 md:-mt-16 lg:text-8xl">
+            <div className="text-shadow-lg relative pb-16 text-center font-caveat text-6xl text-neutral-100 lg:-ml-8 lg:-mt-16 lg:pb-0 lg:text-start lg:text-8xl">
               Publications
             </div>
-            <div className="flex flex-col gap-12 md:max-w-3xl lg:max-w-5xl lg:flex-row">
+            <div className="flex flex-col gap-12 pb-96 md:max-w-3xl lg:max-w-5xl lg:flex-row lg:pb-0">
               <motion.div
                 transition={{ duration: 1 }}
                 whileHover={{ scale: 1.05 }}
@@ -77,7 +85,7 @@ export default function Publications() {
                     <Calculator width={72} height={72} />
                   </div>
                   <div className="flex flex-col items-center justify-between gap-8">
-                    <h3 className="font-caveat text-2xl font-semibold lg:w-fit lg:text-center">
+                    <h3 className="text-center font-caveat text-2xl font-semibold lg:w-fit">
                       Turing Machine to Compute Binary Carry Sequence
                     </h3>
                     <p className="text-justify font-antic text-base">

@@ -10,7 +10,9 @@ module.exports = {
     'text-slate-50',
     'text-red-800',
     'text-red-900',
+    'text-neutral-300',
     'hover:text-orange-600',
+    'hover:text-neutral-50',
   ],
   theme: {
     extend: {
