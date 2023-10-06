@@ -3,13 +3,13 @@ import { ScissorsIcon, CheckBadgeIcon } from '@heroicons/react/20/solid'
 
 const features = [
   {
-    name: 'Premise.',
+    name: 'Premise-',
     description:
       'A digital journey into a charming small-town salon. Explore this Made-Up Salon through a beautiful and throughtful UI designed to provide information and invite users to book an appointment.',
     icon: ScissorsIcon,
   },
   {
-    name: 'Technologies Used.',
+    name: 'Technologies-',
     description:
       'Built with Next.js, TypeScript, and Tailwind CSS, hosted on Vercel.',
     icon: CheckBadgeIcon,
@@ -18,7 +18,7 @@ const features = [
 
 export default function MadeUpSalon() {
   return (
-    <div className="overflow-hidden bg-white py-24 sm:py-32">
+    <div className="relative isolate bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
@@ -76,6 +76,18 @@ export default function MadeUpSalon() {
             />
           </a>
         </div>
+      </div>
+      <div
+        className="pointer-events-none absolute left-12 top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-3xl lg:bottom-[-12rem] lg:top-auto lg:translate-y-0 lg:transform-gpu"
+        aria-hidden="true"
+      >
+        <div
+          className="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-25"
+          style={{
+            clipPath:
+              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+          }}
+        />
       </div>
     </div>
   )
