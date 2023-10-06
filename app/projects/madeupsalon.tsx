@@ -5,7 +5,7 @@ const features = [
   {
     name: 'Premise-',
     description:
-      'A digital journey into a charming small-town salon. Explore this Made-Up Salon through a beautiful and throughtful UI designed to provide information and invite users to book an appointment.',
+      'A digital journey into a charming small-town salon. Explore this Made-Up Salon through a beautiful and thoughtful UI designed to provide information and invite users to book an appointment.',
     icon: ScissorsIcon,
   },
   {
