@@ -101,7 +101,7 @@ export default function Navigation() {
         <div
           className={classNames(
             open ? 'left-0' : '-left-48',
-            'fixed top-0 z-20 h-full bg-gradient-to-t from-purple-300 to-purple-50 shadow-xl transition-all duration-700 ease-in-out'
+            'fixed top-0 z-20 h-screen bg-gradient-to-t from-purple-300 to-purple-50 shadow-xl transition-all duration-700 ease-in-out'
           )}
         >
           <div className="flex h-full flex-col justify-between space-y-1 overflow-y-scroll pb-3 pl-4 pr-8 pt-4">
