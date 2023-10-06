@@ -62,14 +62,14 @@ export default function Home() {
     <>
       <div className="home-body">
         <div className="flex min-h-screen flex-col items-center justify-between text-center">
-          <div className="bg-top-right md:max-width-2xl flex w-full flex-col items-center justify-between bg-opacity-50 bg-hanging-plant-mobile bg-contain bg-no-repeat bg-origin-padding md:min-h-screen md:bg-right lg:bg-hanging-plant lg:px-12 xl:px-32">
-            <section className="flex flex-col place-items-center items-center justify-between bg-opacity-90 bg-gradient-to-b from-slate-50 to-transparent px-12 pb-32 pt-20 md:min-w-full md:px-0 md:px-24 md:pt-48 lg:bg-transparent lg:from-transparent">
+          <div className="bg-top-right md:max-width-2xl flex w-full flex-col items-center justify-between bg-opacity-50 bg-hanging-plant-mobile bg-contain bg-center bg-no-repeat bg-origin-padding transition duration-300 ease-in-out md:bg-right lg:min-h-screen lg:bg-hanging-plant lg:px-12 xl:px-32">
+            <section className="flex w-full flex-col place-items-center items-center justify-between bg-opacity-90 bg-gradient-to-b from-slate-50 to-transparent px-12 pb-32 pt-20 md:min-w-full md:px-0 md:px-24 md:pt-48 lg:bg-transparent lg:from-transparent">
               <h1 className="relative flex pb-24 font-caveat text-6xl md:w-full md:pb-44 md:pb-8 md:text-start lg:-ml-12 lg:pb-12 lg:pb-24 lg:pt-28 lg:text-7xl xl:text-8xl">
                 let&apos;s create something
               </h1>
 
               <div className="flex w-full flex-col items-center justify-between md:flex-row md:gap-24 md:pr-44 lg:items-end lg:justify-start lg:pr-0 xl:gap-40">
-                <h2 className="relative mb-44 flex whitespace-nowrap bg-gradient-radial from-slate-50 via-transparent to-transparent pt-8 text-center font-antic text-xl md:mb-0 md:bg-transparent md:from-transparent md:pt-0 md:text-start md:leading-loose">
+                <h2 className="relative mb-44 flex whitespace-nowrap bg-gradient-radial from-slate-50 via-transparent to-transparent pt-8 text-center font-antic text-xl drop-shadow-lg md:mb-0 md:bg-transparent md:from-transparent md:pt-0 md:text-start md:leading-loose">
                   Software development is my career. <br />
                   People are my passion.
                 </h2>
