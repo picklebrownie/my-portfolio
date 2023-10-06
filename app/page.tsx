@@ -74,7 +74,7 @@ export default function Home() {
                   People are my passion.
                 </h2>
 
-                <button className="button-pink text w-fit font-caveat text-2xl text-white hover:scale-110 focus:scale-110">
+                <button className="button-pink text w-fit font-caveat text-2xl text-white transition duration-300 ease-in-out hover:scale-110 focus:scale-110">
                   contact me
                 </button>
               </div>
@@ -168,7 +168,7 @@ export default function Home() {
             </p>
 
             <div className="flex flex-col gap-12 md:max-w-3xl lg:max-w-4xl lg:flex-row">
-              <div className="flex flex-col items-center justify-between gap-8 rounded-2xl bg-slate-50 p-8 px-8 md:flex-row md:items-start md:pl-12 md:pr-16 lg:flex-col lg:items-center lg:px-8">
+              <div className="flex flex-col items-center justify-between gap-8 rounded-2xl bg-slate-50 p-8 px-8 shadow-sm md:flex-row md:items-start md:pl-12 md:pr-16 lg:flex-col lg:items-center lg:px-8">
                 <div className="">
                   <DottedFile width={72} height={72} />
                 </div>
@@ -184,14 +184,14 @@ export default function Home() {
                     of codebases.
                   </p>
                   <div className="md:grid md:w-full md:justify-items-end lg:justify-items-center">
-                    <button className="button-pink text w-fit font-caveat text-2xl text-white hover:scale-110 focus:scale-110">
+                    <button className="button-pink text w-fit font-caveat text-2xl text-white transition duration-300 ease-in-out hover:scale-110 focus:scale-110 ">
                       let&apos;s refactor
                     </button>
                   </div>
                 </div>
               </div>
 
-              <div className="flex flex-col items-center justify-between gap-8 rounded-2xl bg-slate-50 p-8 px-8 md:flex-row md:items-start md:pl-12 md:pr-16 lg:flex-col lg:items-center lg:px-8">
+              <div className="flex flex-col items-center justify-between gap-8 rounded-2xl bg-slate-50 p-8 px-8 shadow-sm md:flex-row md:items-start md:pl-12 md:pr-16 lg:flex-col lg:items-center lg:px-8 ">
                 <div className="">
                   <Application width={72} height={72} />
                 </div>
@@ -208,14 +208,14 @@ export default function Home() {
                     speeds, and security you desire.
                   </p>
                   <div className="md:grid md:w-full md:justify-items-end lg:justify-items-center">
-                    <button className="button-purple text w-fit font-caveat text-2xl text-white hover:scale-110 focus:scale-110">
+                    <button className="button-purple text w-fit font-caveat text-2xl text-white transition duration-300 ease-in-out hover:scale-110 focus:scale-110 ">
                       let&apos;s create
                     </button>
                   </div>
                 </div>
               </div>
 
-              <div className="flex flex-col items-center justify-between gap-8 rounded-2xl bg-slate-50 p-8 px-8 md:flex-row md:items-start md:pl-12 md:pr-16 lg:flex-col lg:items-center lg:px-8">
+              <div className="flex flex-col items-center justify-between gap-8 rounded-2xl bg-slate-50 p-8 px-8 shadow-sm md:flex-row md:items-start md:pl-12 md:pr-16 lg:flex-col lg:items-center lg:px-8">
                 <div className="">
                   <Plug width={72} height={72} />
                 </div>
@@ -231,7 +231,7 @@ export default function Home() {
                     choice for you.
                   </p>
                   <div className="md:grid md:w-full md:justify-items-end lg:justify-items-center">
-                    <button className="button-blue text w-fit font-caveat text-2xl text-white hover:scale-110 focus:scale-110">
+                    <button className="button-blue text w-fit  font-caveat text-2xl text-white transition duration-300 ease-in-out hover:scale-110 focus:scale-110">
                       let&apos;s innovate
                     </button>
                   </div>
@@ -252,8 +252,8 @@ export default function Home() {
                   className="z-10 -mb-1"
                 />
               </div>
-              <div className="relative mb-12 flex flex-col md:mb-0">
-                <div className="flex flex-col gap-4 rounded-[60px] bg-slate-50 p-12">
+              <div className="relative mb-12 flex flex-col md:mb-0 ">
+                <div className="flex flex-col gap-4 rounded-[60px] bg-slate-50 p-12 shadow-sm">
                   <QuoteIcon
                     width={84}
                     height={84}
@@ -276,7 +276,7 @@ export default function Home() {
             </div>
 
             <div className="relative flex w-full flex-col">
-              <div className="flex flex-col gap-4 rounded-[60px] bg-slate-50 p-12">
+              <div className="flex flex-col gap-4 rounded-[60px] bg-slate-50 p-12 shadow-sm">
                 <QuoteIcon
                   width={84}
                   height={84}
