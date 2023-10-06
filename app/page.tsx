@@ -64,7 +64,7 @@ export default function Home() {
         <div className="flex min-h-screen flex-col items-center justify-between text-center">
           <div className="bg-top-right md:max-width-2xl flex w-full flex-col items-center justify-between bg-opacity-50 bg-hanging-plant-mobile bg-contain bg-no-repeat bg-origin-padding md:min-h-screen md:bg-right lg:bg-hanging-plant lg:px-12 xl:px-32">
             <section className="flex flex-col place-items-center items-center justify-between bg-opacity-90 bg-gradient-to-b from-slate-50 to-transparent px-12 pb-32 pt-20 md:min-w-full md:px-0 md:px-24 md:pt-48 lg:bg-transparent lg:from-transparent">
-              <h1 className="relative flex pb-24 font-caveat text-6xl md:w-full md:pb-44 md:text-start lg:-ml-12 lg:pb-12 lg:pt-28 lg:text-7xl xl:text-8xl">
+              <h1 className="relative flex pb-24 font-caveat text-6xl md:w-full md:pb-44 md:pb-8 md:text-start lg:-ml-12 lg:pb-12 lg:pb-24 lg:pt-28 lg:text-7xl xl:text-8xl">
                 let&apos;s create something
               </h1>
 
@@ -81,7 +81,7 @@ export default function Home() {
             </section>
           </div>
 
-          <section className="relative h-fit w-full md:absolute md:bottom-2 lg:bottom-6 xl:bottom-8">
+          <section className="relative h-fit w-full lg:absolute lg:bottom-2 lg:bottom-6 xl:bottom-8">
             <div className="absolute inset-0 flex bg-opacity-70 bg-gradient-radial from-white via-transparent to-transparent">
               {/* background gradient */}
             </div>
